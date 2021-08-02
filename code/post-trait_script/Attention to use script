@@ -1,0 +1,23 @@
+Attention to use script
+
+before run any script, u have to check
+-name of file hdf5
+-postion x_wall 
+-position ground
+-time
+-flow_height
+
+
+Order: study flow without wall and then with wall
+
+(1)without wall:
+-flow_height, profil_density
+-profil_vitesse
+-flow_rate, time_constant_flow_rate
+
+(2)with wall:
+-dead_zone with profil_vitesse calculate at (1)
+-force on wall, obstacle
+
+
+
